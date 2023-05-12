@@ -1,14 +1,14 @@
 :root {
-  --face-color: whitesmoke;
+  --face-color: black;
   --face-height: 100vh;
   --face-width: 100vw;
   --eye-size: 33.33vmin;
-  --eye-color: black;
-  --eyelid-color: whitesmoke;
+  --eye-color: whitesmoke;
+  --eyelid-color: black;
 }
 
 body {
-  background-color: white;
+  background-color: black;
   margin: 0px;
 }
 

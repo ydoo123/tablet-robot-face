@@ -212,3 +212,16 @@ const eyes = new EyeController({
   lowerLeftEyelid: document.querySelector('.left .eyelid.lower'),
   lowerRightEyelid: document.querySelector('.right .eyelid.lower'),
 });
+
+
+window.onload = function() {
+  var i = 0;
+  setInterval(function() {
+    if (i % 2 == 0) {
+      eyes.startBlinking();
+    } else {
+      eyes.express({type: 'happy'})();
+    }
+    i++;
+  }, 5000);
+};
